@@ -3,15 +3,17 @@ import {
   Query, // component
   useQuery // hook
 } from 'urql';
-import getPokemon from './api/getPokemon';
+import getPokemons from './api/getPokemons';
 
-const PokemonGenerator = () => (
+const PokemonGenerator = () =>
+{
+  return (
   <Fragment>
     <h1>🤔</h1>
     <p>
       Hmm... Needs more Pokemon
     </p>
   </Fragment>
-)
+)}
 
 export default PokemonGenerator;
