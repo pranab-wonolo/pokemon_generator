@@ -1,5 +1,12 @@
 const getStarWarsMovie = `
-  query Film() {
+  query Film($title: String) {
+    Film(title: $title){
+      title
+      characters{
+        name
+      }
+    }
+
   }
 `;
 
