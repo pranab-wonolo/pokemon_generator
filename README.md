@@ -22,5 +22,5 @@ Button Behavior:
 - Returns 1 random pokemon per click
 
 **Docs:**
-- API https://graphql-pokemon.now.sh/
+- API https://graphql-pokemon2.vercel.app
 - urql https://formidable.com/open-source/urql/docs/ (everything you need is on this page!)
