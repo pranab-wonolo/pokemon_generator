@@ -1,14 +1,14 @@
 import React from 'react';
 import { Provider as QueryProvider } from 'urql';
 import client from './api/urql';
-import PokemonGenerator from './PokemonGenerator.js';
+import StarWarsMovieGenerator from './StarWarsMovieGenerator';
 import './App.css';
 
 const App = () => (
   <QueryProvider value={client}>
     <div className="App">
       <div className="App-header">
-        <PokemonGenerator />
+        <StarWarsMovieGenerator />
       </div>
     </div>
   </QueryProvider>
