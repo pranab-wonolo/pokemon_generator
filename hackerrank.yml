@@ -5,5 +5,5 @@ configuration:
     default_open_files:
       - README.md
     project_menu:
-      run: yarn start
-      install: yarn install
+      run: npm start
+      install: npm install
