@@ -10,8 +10,8 @@
     "urql": "^1.6.3"
   },
   "scripts": {
-    "pretest": "yarn install",
-    "prestart": "yarn install",
+    "pretest": "npm install",
+    "prestart": "npm install",
     "start": "PORT=8000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
